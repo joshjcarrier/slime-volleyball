@@ -711,7 +711,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 541164446ec3583429e02d361ae142f2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
@@ -830,7 +830,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playersCanMove: 0
   playersCanServe: 0
-  scoreAudio: {fileID: 519420033}
+  scoreSfx: {fileID: 8300000, guid: 6b45ec1d2baf8fd40aff5ed1e8e4fcbd, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: 35626896da57df44e86bb87183a5c7fb, type: 3}
   playerServing: {fileID: 0}
   Shaking: 0
 --- !u!20 &519420031
@@ -997,10 +998,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 35626896da57df44e86bb87183a5c7fb, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2300,7 +2301,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 541164446ec3583429e02d361ae142f2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
